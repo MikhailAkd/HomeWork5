@@ -12,7 +12,26 @@ public class Main {
 
         //Задача 2
 
-        System.out.print(arrayOne[0] + ", " + arrayOne[1] + ", " + arrayOne[2] + " " + arrayTwo[0] + ", " + arrayTwo[1] + ", " + arrayTwo[2] + " " + arrayThree[0] + ", " + arrayThree[1] + ", " + arrayThree[2]);
+        for (int a = 0; a <= 2; a++) {
+            System.out.print(arrayOne[a]);
+            if (a <= 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int b = 0; b <= 2 ; b++) {
+            System.out.print(arrayTwo[b]);
+            if (b <= 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int c = 0; c <= 2; c++) {
+            System.out.print(arrayThree[c]);
+            if (c <= 1) {
+                System.out.print(", ");
+            }
+        }
         System.out.println();
         System.out.println();
 
